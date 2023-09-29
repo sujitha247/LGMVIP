@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #d18a06
+}
+.bg-image{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/04/50/75/85585d27229af16.jpg");
+    backdrop-filter: blur(8px);
+}
+#calculator{
+    width: 400px;
+    margin: auto;
+    font-style: italic;
+    font-size: 50px;
+    background-color:rgb(128, 11, 237);
+    text-align: center;
+    font-weight: bold;
+}
+#container {
+    height: 450px;
+    width: 350px;
+    background-color:rgb(204, 255, 0);
+    margin: 10vh auto;
+    border-radius: 40px;
+    box-shadow: 7px 7px 10px rgb(12, 110, 207);
+    padding: 30px;
+}
+
+#display {
+    border: 4px solid rgb(244, 0, 0);
+    background-color: rgb(230, 11, 106);
+    border-radius: 5px;
+    padding: 15px;
+    overflow-x: scroll;
+    font-size: 20px;
+    height: 50px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+#AC {
+    background-color: palegoldenrod;
+}
+
+#AC:hover {
+    background-color: whitesmoke;
+}
+
+#DEL {
+    background-color: bisque;
+}
+
+#DEL:hover {
+    background-color: antiquewhite;
+}
+
+.buttons {
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px;
+    width: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: white;
+}
+
+@media only screen and (max-width: 450px){
+.buttons {
+    background-color: hsla(0, 82%, 48%, 0.886);
+    border: 1px solid rgba(240, 232, 232, 0.8);
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin: 3px;
+    width: 35px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  #container{
+    width: 270px;
+  }
+  #calculator{
+    width: 330px;
+    
+}
+}
